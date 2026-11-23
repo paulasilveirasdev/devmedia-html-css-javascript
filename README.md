@@ -1,14 +1,13 @@
-# Portfólio Front-End - DevMedia
+# Padaria - Projeto Front-End
 
-Repositório dedicado ao registro da minha evolução nos estudos de desenvolvimento Front-End, reunindo exercícios e projetos práticos desenvolvidos durante minha formação.
+## Sobre o projeto
+Página web desenvolvida durante os estudos de HTML5 e CSS3 pela DevMedia.
 
-## Tecnologias em estudo
+O exercício tem como objetivo praticar a estruturação de páginas web e a aplicação de estilos utilizando HTML e CSS.
 
+## Tecnologias utilizadas
 - HTML5
 - CSS3
-- JavaScript
-- Git e GitHub
 
-## Objetivo
-
-Praticar e consolidar conhecimentos em desenvolvimento web, acompanhar minha evolução técnica e construir uma base para atuar profissionalmente na área de tecnologia.
+## Objetivo do aprendizado
+Praticar estrutura HTML, estilização de elementos, organização de conteúdo e construção de layouts básicos.
