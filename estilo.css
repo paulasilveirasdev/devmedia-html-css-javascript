@@ -1,0 +1,303 @@
+/* ===== Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== Estilos das tags ===== */
+body {
+  font-family: "Arial", sans-serif;
+  color: #1d1d1d;
+  background-color: #ffffff;
+}
+
+h1 {
+  font-size: 72px;
+  line-height: 1;
+  letter-spacing: -3px;
+  width: 760px;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: normal;
+  color: #1d80c1;
+}
+
+h3 {
+  font-size: 44px;
+  letter-spacing: -1px;
+  margin-bottom: 24px;
+}
+
+span {
+  font-weight: bold;
+}
+
+/* ===== Estrutura das seções ===== */
+.secao {
+  text-align: center;
+  padding: 100px 0;
+}
+
+/* Coluna de 1000px com o conteúdo alinhado à esquerda */
+.conteudo {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* ===== Textos ===== */
+.texto {
+  width: 640px;
+  font-size: 18px;
+  line-height: 1.75;
+  color: #4b5563;
+}
+
+.destaque {
+  color: #1d80c1;
+}
+
+/* Versão clara do texto, para as seções de fundo colorido */
+.texto-claro {
+  width: 680px;
+  font-size: 18px;
+  line-height: 1.75;
+  color: #e5e9ee;
+  margin: 0 auto 40px auto;
+}
+
+.destaque-claro {
+  color: #ffffff;
+}
+
+/* ===== Imagens ===== */
+.foto {
+  width: 1000px;
+  border-radius: 8px;
+  margin: 48px 0;
+}
+
+/* ===== Botões ===== */
+.acoes {
+  margin-top: 40px;
+}
+
+/* Estilos em comum dos dois botões */
+.botao,
+.botao-contorno {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 16px 32px;
+  border: 2px solid #1d80c1;
+  border-radius: 6px;
+}
+
+/* O que muda em cada botão: as cores */
+.botao {
+  color: #ffffff;
+  background-color: #1d80c1;
+}
+
+.botao-contorno {
+  color: #1d80c1;
+  background-color: #ffffff;
+  margin-left: 12px;
+}
+
+/* ===== Barra de informações ===== */
+.barra-info {
+  text-align: center;
+  font-size: 14px;
+  color: #a3aab2;
+  background-color: #1d1d1d;
+  padding: 10px 0;
+}
+
+.info {
+  color: #ffffff;
+  margin-left: 28px;
+  padding-left: 28px;
+  border-left: 1px solid #4b5563;
+}
+
+/* ===== Topo ===== */
+.topo {
+  text-align: center;
+  padding: 24px 0;
+  border-bottom: 1px solid #e5e9ee;
+}
+
+.topo img {
+  width: 84px;
+}
+
+.menu {
+  margin-top: 18px;
+}
+
+.link-menu {
+  font-size: 16px;
+  font-weight: bold;
+  color: #4b5563;
+  text-decoration: none;
+  margin: 0 14px;
+}
+
+.botao-menu {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #1d80c1;
+  text-decoration: none;
+  padding: 10px 22px;
+  border-radius: 6px;
+  margin-left: 14px;
+}
+
+/* ===== Hero ===== */
+.hero {
+  padding: 100px 0 72px 0;
+}
+
+/* ===== Banner ===== */
+.banner {
+  text-align: center;
+}
+
+.banner img {
+  width: 1000px;
+  border-radius: 8px;
+}
+
+/* ===== Seções com fundo colorido ===== */
+.servicos {
+  background-color: #1d80c1;
+}
+
+.contato {
+  background-color: #1d1d1d;
+}
+
+.servicos h3,
+.contato h3 {
+  color: #ffffff;
+}
+
+/* ===== Serviços ===== */
+.lista-servicos {
+  list-style: none;
+  width: 420px;
+  margin: 0 auto;
+  border-top: 1px solid #e5e9ee;
+}
+
+.item-servico {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 20px 0;
+  border-bottom: 1px solid #e5e9ee;
+}
+
+/* ===== Contato ===== */
+.mapa {
+  border: 0;
+  border-radius: 8px;
+  margin: 16px 0 40px 0;
+}
+
+.escritorio {
+  width: 500px;
+  text-align: left;
+  background-color: #2a2a2a;
+  border-left: 4px solid #1d80c1;
+  border-radius: 6px;
+  padding: 24px 30px;
+  margin: 0 auto 16px auto;
+}
+
+.nome-escritorio {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 6px;
+}
+
+.endereco {
+  font-size: 14px;
+  color: #a3aab2;
+  margin-bottom: 16px;
+}
+
+.link-whatsapp {
+  font-size: 14px;
+  font-weight: bold;
+  color: #1d1d1d;
+  background-color: #25d366;
+  text-decoration: none;
+  padding: 5px 12px;
+  border-radius: 4px;
+  margin-right: 14px;
+}
+
+.link-contato {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 14px;
+}
+
+/* ===== Rodapé ===== */
+.rodape {
+  text-align: center;
+  background-color: #f1f5f9;
+  padding: 72px 0 56px 0;
+}
+
+.rodape img {
+  width: 90px;
+}
+
+.rodape-descricao {
+  font-size: 16px;
+  color: #4b5563;
+  margin: 16px 0 32px 0;
+}
+
+.rodape-links {
+  margin-bottom: 20px;
+}
+
+.link-rodape {
+  font-size: 14px;
+  font-weight: bold;
+  color: #1d1d1d;
+  text-decoration: none;
+  margin: 0 12px;
+}
+
+.creci {
+  font-size: 14px;
+  color: #4b5563;
+  margin: 28px 0 24px 0;
+}
+
+.rodape-final {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #a3aab2;
+  background-color: #1d1d1d;
+  padding: 22px 0;
+}
+
+.link-dev {
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
