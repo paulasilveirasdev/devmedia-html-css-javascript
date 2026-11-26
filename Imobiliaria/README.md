@@ -1,5 +1,10 @@
 Projeto Imobiliária
 
+## Acesso ao projeto
+
+- **Projeto online:** https://imobiliaria-devmedia-ebon.vercel.app/
+
+
 Sobre o projeto
 
 Projeto desenvolvido durante os estudos de desenvolvimento Front-End pela DevMedia.
